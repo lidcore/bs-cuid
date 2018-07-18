@@ -1,0 +1,27 @@
+{
+  "name": "bs-cuid",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidcore/bs-cuid.git"
+  },
+  "bugs": "https://github.com/lidcore/bs-cuid/issues",
+  "keywords": [
+    "bucklescript",
+    "cuid"
+  ],
+  "author": "LIDCORE IT <it@lidcore.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "bs-platform": "=4.0.0",
+    "bs-tape": "=0.3.0"
+  },
+  "dependencies": {
+    "cuid": "^2.1.1"
+  }
+}
